@@ -1,0 +1,34 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.data-container {
+}
+
+.main-container > h1 {
+  font-size: large;
+}
+
+.topContainer {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+.scroll-progress-tracker {
+  width: 100%;
+  height: 10px;
+  background: #aaf900;
+}
+
+.current-progress {
+  height: 10px;
+  width: 0%;
+  background-color: red;
+}

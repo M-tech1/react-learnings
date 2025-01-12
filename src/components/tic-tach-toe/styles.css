@@ -1,0 +1,22 @@
+.game-container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.square {
+  border: 1px solid red;
+  float: left;
+  height: 100px;
+  padding: 0px;
+  text-align: center;
+  width: 100px;
+  margin-right: -1px;
+}

@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 450px;
+  background-color: aqua;
+}
+
+.current_image {
+  border-radius: 0.5rem;
+  box-shadow: 0px, opx, 7px #666;
+  width: 100%;
+  height: 100%;
+}
+
+.hideImage {
+  display: none;
+}
+
+.circle-indicator {
+  display: true;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.current_indicator {
+  background-color: aliceblue;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.inactive_indicator {
+  background-color: #666;
+}
