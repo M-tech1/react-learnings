@@ -1,8 +1,8 @@
-.game-container::after {
+/* .game-container {
   clear: both;
   content: "";
   display: table;
-}
+} */
 
 .game-container {
   display: flex;
@@ -12,11 +12,15 @@
 }
 
 .square {
-  border: 1px solid red;
+  border: 1px solid blue;
   float: left;
   height: 100px;
+  width: 100px;
   padding: 0px;
   text-align: center;
-  width: 100px;
+
   margin-right: -1px;
+}
+
+.row {
 }
