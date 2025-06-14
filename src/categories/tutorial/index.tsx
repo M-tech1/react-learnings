@@ -38,7 +38,6 @@ export default function Tutorials() {
       <GithubProfileFinder />
       <SearchAutoComplete />
       <TicTacToe />
-
       <FeatureFlagGlobalState>
         <FeatureFlags />
       </FeatureFlagGlobalState>

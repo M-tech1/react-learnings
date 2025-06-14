@@ -1,6 +1,6 @@
 import React from "react";
 import { useAuth } from "../useContext";
-export default function Login() {
+export default function Context_Login() {
   const { user, login, logout } = useAuth();
   return (
     <>
